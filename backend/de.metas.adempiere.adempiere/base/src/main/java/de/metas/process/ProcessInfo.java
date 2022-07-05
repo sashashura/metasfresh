@@ -777,6 +777,8 @@ public final class ProcessInfo implements Serializable
 
 		private Boolean notifyUserAfterExecution;
 
+		private boolean logWarning = false;
+
 		private ProcessInfoBuilder()
 		{
 		}
