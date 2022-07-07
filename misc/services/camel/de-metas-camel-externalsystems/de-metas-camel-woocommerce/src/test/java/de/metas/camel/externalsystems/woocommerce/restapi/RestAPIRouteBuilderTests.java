@@ -20,7 +20,7 @@
  * #L%
  */
 
-package de.metas.camel.externalsystems.woocommerce.restapi;
+package java.de.metas.camel.externalsystems.woocommerce.restapi;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -42,6 +42,7 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
+
 
 import static de.metas.camel.externalsystems.woocommerce.restapi.RestAPIRouteBuilder.DISABLE_PREPARE_EXTERNAL_STATUS_CREATE_REQ_PROCESSOR_ID;
 import static de.metas.camel.externalsystems.woocommerce.restapi.RestAPIRouteBuilder.DISABLE_RESOURCE_ATTACH_AUTHENTICATE_REQ_PROCESSOR_ID;
