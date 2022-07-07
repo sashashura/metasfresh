@@ -2,6 +2,11 @@ package de.metas.camel.externalsystems.woocommerce.restapi;
 
 import java.util.List;
 import java.util.Map;
+import de.metas.camel.externalsystems.woocommerce.authorization.AuthorizationHeader;
+import de.metas.camel.externalsystems.woocommerce.authorization.AuthorizationSignature;
+import de.metas.camel.externalsystems.woocommerce.authorization.EncodedSymbols;
+import de.metas.camel.externalsystems.woocommerce.authorization.OAuthParameter;
+
 
 public  class WooCommerceApi implements WooCommerce  {
 

@@ -16,11 +16,7 @@ public final class OAuthParameter {
 
 
 	public OAuthParameter(@NonNull String baseUrl, @NonNull String consumerKey, @NonNull String consumerSecret) {
-		/*if (baseUrl == null || baseUrl.isEmpty() ||
-				consumerKey == null || consumerKey.isEmpty() ||
-				consumerSecret == null || consumerSecret.isEmpty()) {
-			throw new IllegalArgumentException("URL, Consumerkey and Consumersecret are required");
-		}*/
+
 		this.url = baseUrl;
 		this.consumerKey = consumerKey;
 
