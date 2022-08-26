@@ -32,7 +32,7 @@ import java.time.ZonedDateTime;
 public class CacheMgt_StepDef
 {
 	@Given("the whole cache is reset")
-	public void metasfresh_has_the_local_time(String zonedDateTime)
+	public void metasfresh_has_the_local_time()
 	{
 		CacheMgt.get().reset();
 	}
